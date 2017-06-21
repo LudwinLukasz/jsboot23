@@ -1,0 +1,57 @@
+﻿* { 
+	box-sizing: border-box; 
+}
+
+body {
+	margin: 0 10%;
+}
+
+.app {
+	text-align: center;
+	background: gray;
+}
+
+.contactForm {
+	background: grey;
+	color: blue;
+	border: 2px black solid;
+}
+
+button {
+	margin: 4px 2px;
+	padding: 15px 30px;
+	min-width: 160px;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 5px;
+	background-color: inherit;
+	border: 2px solid;
+	transition: .4s;
+	cursor: pointer;
+	color: #f1c40f;
+}
+
+button:hover {
+	color: white;
+
+}
+input {
+	padding: 1px;
+	margin: 5px auto;
+	line-height: 45px;
+	text-align: center;
+	font-size: 15px;
+}
+
+.contactsList {
+	text-align: center;
+	background: gray;
+	border: 2px black solid;
+	
+}
+
+.contactItem {
+padding: 10%;
+	border: 2px black solid;
+
+}
